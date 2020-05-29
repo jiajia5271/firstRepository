@@ -1,0 +1,11 @@
+版本库：“.git”目录就是版本库，将来文件都需要保存到版本库中。
+工作目录：包含“.git”目录的目录，也就是.git目录的上一级目录就是工作目录，只有工作目录中的文件才能保存到版本库中。
+
+git init 初始化项目
+git add README.md 添加README.md到暂存区
+git commit -m "first commit" 提交并记录日志信息
+git remote add origin https://github.com/dongdong466/Java-.git	建立远程仓库连接
+git push -u origin master	推送到远程仓库
+
+git clone 【url】 克隆远程仓库的项目
+
