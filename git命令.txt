@@ -6,7 +6,7 @@ git add README.md 添加README.md到暂存区
 git commit -m "first commit" 提交并记录日志信息
 git remote add origin https://github.com/dongdong466/Java-.git	建立远程仓库连接
 git push -u origin master	推送到远程仓库
-
+git pull [origin master]从远程仓库拉去最新的代码到本地
 git clone 【url】 克隆远程仓库的项目
 
-git pull [origin master]从远程仓库拉去最新的代码到本地
+
